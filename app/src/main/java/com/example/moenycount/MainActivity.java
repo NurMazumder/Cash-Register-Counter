@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mAuth = FirebaseAuth.getInstance();
         FirebaseUser user = mAuth.getCurrentUser();
-        /*
+        
         if(user !=null){
             finish();
             startActivity(new Intent(MainActivity.this,counter.class));
-        }*/
+        }
 
     }
     @Override
