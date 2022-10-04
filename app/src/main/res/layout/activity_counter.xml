@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".counter">
+
+    <EditText
+        android:id="@+id/keep"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="keep"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toEndOf="@+id/one"
+        app:layout_constraintTop_toBottomOf="@+id/total"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="total"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toEndOf="@+id/one"
+        app:layout_constraintTop_toBottomOf="@+id/oneC"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <EditText
+        android:id="@+id/oneC"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="1c"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toEndOf="@+id/two"
+        app:layout_constraintTop_toBottomOf="@+id/fiveC"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <EditText
+        android:id="@+id/fiveC"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="5c"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toEndOf="@+id/two"
+        app:layout_constraintTop_toBottomOf="@+id/tenC"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <EditText
+        android:id="@+id/tenC"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="10c"
+        android:inputType="number|textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toEndOf="@+id/fifty"
+        app:layout_constraintTop_toBottomOf="@+id/twentyfiveC" />
+
+    <EditText
+        android:id="@+id/twentyfiveC"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="25c"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBanner2"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <EditText
+        android:id="@+id/one"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="$1"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/two"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <EditText
+        android:id="@+id/two"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="$2"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/five"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/five"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="$5"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ten"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <EditText
+        android:id="@+id/ten"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="$10"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twenty"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <EditText
+        android:id="@+id/twenty"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="$20"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifty"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/fifty"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="$50"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <TextView
+        android:id="@+id/tvBanner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Enter number of bills"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <EditText
+        android:id="@+id/hundred"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="$100"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/fifty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keep"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <TextView
+        android:id="@+id/counted"
+        android:layout_width="104dp"
+        android:layout_height="43dp"
+        android:text="counted"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <TextView
+        android:id="@+id/missing"
+        android:layout_width="117dp"
+        android:layout_height="43dp"
+        android:text="Short"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toEndOf="@+id/counted"
+        app:layout_constraintTop_toBottomOf="@+id/Add"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <TextView
+        android:id="@+id/take"
+        android:layout_width="102dp"
+        android:layout_height="43dp"
+        android:text="remove"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toEndOf="@+id/missing"
+        app:layout_constraintTop_toBottomOf="@+id/Add"
+        app:layout_constraintVertical_bias="0.344" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

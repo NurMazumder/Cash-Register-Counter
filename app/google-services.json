@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325178429782",
+    "project_id": "auth-38631",
+    "storage_bucket": "auth-38631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325178429782:android:a7417478d7866907c346f7",
+        "android_client_info": {
+          "package_name": "com.example.moenycount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325178429782-9q5q5i2hut70v6bc5l9ve7g30jpab4ne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpeF2-0qw1HoBVuk8ptkJkAj-GUqxWhkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325178429782-9q5q5i2hut70v6bc5l9ve7g30jpab4ne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
